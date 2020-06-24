@@ -21,7 +21,7 @@ const CAM_TRANS = {
 };
 
 function preload() {
-  for(let i = 0; i < 9; i++) {
+  for(let i = 0; i < 8; i++) {
     mImg.push(loadImage(`assets/tgh_0000${i}.jpg`));
   }
 }
