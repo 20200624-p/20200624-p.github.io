@@ -100,7 +100,9 @@ function windowResized() {
 function keyReleased() {
   if(key === 'ArrowUp' || key === 'ArrowRight') {
     imgIndex = (imgIndex + 1) % mImg.length;
+    noiseSeed(random(100));
   } else if(key === 'ArrowDown' || key === 'ArrowLeft') {
     imgIndex = (imgIndex + mImg.length - 1) % mImg.length;
+    noiseSeed(random(100));
   }
 }
