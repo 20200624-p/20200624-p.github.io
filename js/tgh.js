@@ -42,7 +42,7 @@ function setup() {
   var state = {
     distance : 500,
     center   : [0, 0, 0],
-    rotation : [1, .66, .1, .6],
+    rotation : [.7, .66, .5, 0],
   };
 
   easycam = new Dw.EasyCam(this._renderer, state);
